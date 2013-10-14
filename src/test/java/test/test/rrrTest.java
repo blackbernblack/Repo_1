@@ -10,14 +10,10 @@ public class rrrTest {
 	@Test
 	public void main() {
 	    System.out.println("HELLLLLLLLLooooo");
-	    System.out.println("2туч€евшращдвырадр");
-	    try {
-	    	Thread.sleep(10000);
-			//testGoogle();
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+	    testGoogle();
+	    System.out.println("==End of test==");
+	    
+	  
 	}
 	
 	public void testGoogle() {
@@ -29,5 +25,7 @@ public class rrrTest {
 		
 		mSelenium.click("permission");
 		System.out.println(mSelenium.isTextPresent("May we send you updates using e-mail?"));
+		
+		mSelenium.stop();
 	}
 }
