@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test.test.rrrTest" duration-ms="15" started-at="2013-10-14T17:41:38Z" finished-at="2013-10-14T17:41:38Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="15" started-at="2013-10-14T17:41:38Z" finished-at="2013-10-14T17:41:38Z">
+      <class name="test.test.rrrTest">
+        <test-method status="PASS" signature="main()[pri:0, instance:test.test.rrrTest@3b0bbdb3]" name="main" duration-ms="6" started-at="2013-10-14T17:41:38Z" finished-at="2013-10-14T17:41:38Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
