@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="test.test.TestGeolotto" duration-ms="12706" started-at="2013-10-15T16:13:28Z" finished-at="2013-10-15T16:13:41Z">
+  <suite name="test.test.TestGeolotto" duration-ms="15143" started-at="2013-10-15T16:15:22Z" finished-at="2013-10-15T16:15:37Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="12706" started-at="2013-10-15T16:13:28Z" finished-at="2013-10-15T16:13:41Z">
+    <test name="Command line test" duration-ms="15143" started-at="2013-10-15T16:15:22Z" finished-at="2013-10-15T16:15:37Z">
       <class name="test.test.TestGeolotto">
-        <test-method status="PASS" signature="registerUserTest()[pri:0, instance:test.test.TestGeolotto@71b8b648]" name="registerUserTest" duration-ms="12690" started-at="2013-10-15T16:13:28Z" finished-at="2013-10-15T16:13:41Z">
+        <test-method status="PASS" signature="registerUserTest()[pri:0, instance:test.test.TestGeolotto@71b8b648]" name="registerUserTest" duration-ms="15143" started-at="2013-10-15T16:15:22Z" finished-at="2013-10-15T16:15:37Z">
         </test-method>
       </class>
     </test>
