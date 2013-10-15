@@ -16,7 +16,7 @@ public class TestGeolotto  implements Runnable{
 	private PageObject.HomePage homePage;
    
 	@Test
-  (groups="fff")
+  //(groups="fff")
     public void registerUserTest() {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://geolotto.co.uk/");
