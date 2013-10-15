@@ -40,5 +40,7 @@ public class TestGeolotto  implements Runnable{
 		homePage.clickRegister();
 	}
 
+
+
 	
 }

@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21124" started-at="2013-10-15T12:03:04Z" finished-at="2013-10-15T12:03:26Z">
+  <suite name="Default suite" duration-ms="21635" started-at="2013-10-15T12:51:53Z" finished-at="2013-10-15T12:52:15Z">
     <groups>
       <group name="fff">
         <method signature="TestGeolotto.registerUserTest()[pri:0, instance:test.test.TestGeolotto@1540de0]" name="registerUserTest" class="test.test.TestGeolotto"/>
       </group> <!-- fff -->
     </groups>
-    <test name="Default test" duration-ms="21124" started-at="2013-10-15T12:03:04Z" finished-at="2013-10-15T12:03:26Z">
+    <test name="Default test" duration-ms="21635" started-at="2013-10-15T12:51:53Z" finished-at="2013-10-15T12:52:15Z">
       <class name="test.test.TestGeolotto">
-        <test-method status="PASS" signature="registerUserTest()[pri:0, instance:test.test.TestGeolotto@1540de0]" name="registerUserTest" duration-ms="21124" started-at="2013-10-15T15:03:04Z" finished-at="2013-10-15T15:03:26Z">
+        <test-method status="PASS" signature="registerUserTest()[pri:0, instance:test.test.TestGeolotto@1540de0]" name="registerUserTest" duration-ms="21619" started-at="2013-10-15T15:51:53Z" finished-at="2013-10-15T15:52:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerUserTest -->
