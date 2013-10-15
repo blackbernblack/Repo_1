@@ -25,7 +25,7 @@ public class TestGeolotto  implements Runnable{
 		user.setPostCode("73321");
 		homePage = new PageObject.HomePage(driver);
 		ScheduledExecutorService worker = Executors.newSingleThreadScheduledExecutor();
-		worker.schedule(this, 5001, TimeUnit.MILLISECONDS);
+		worker.schedule(this, 1, TimeUnit.MILLISECONDS);
 		worker.shutdown();		
 		// homePage.clickRegister();
 		// (new WebDriverWait(driver, 10))
