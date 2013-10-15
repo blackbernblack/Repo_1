@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: test.test.rrrTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.978 sec
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.309 sec <<< FAILURE!
+main(test.test.rrrTest)  Time elapsed: 1.036 sec  <<< FAILURE!
+java.lang.RuntimeException: Could not contact Selenium Server; have you started it on 'localhost:4444' ?
+Read more at http://seleniumhq.org/projects/remote-control/not-started.html
+Connection refused: connect
+	at com.thoughtworks.selenium.DefaultSelenium.start(DefaultSelenium.java:104)
+	at test.test.rrrTest.testGoogle(rrrTest.java:22)
+	at test.test.rrrTest.main(rrrTest.java:13)
+

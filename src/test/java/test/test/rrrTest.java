@@ -25,7 +25,7 @@ public class rrrTest {
 		
 		mSelenium.click("permission");
 		System.out.println(mSelenium.isTextPresent("May we send you updates using e-mail?"));
-		
+		mSelenium.shutDownSeleniumServer();
 		mSelenium.stop();
 	}
 }
