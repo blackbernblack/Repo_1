@@ -33,6 +33,7 @@ public class TestGeolotto  implements Runnable{
 
 		PageObject.RegistrationPage registrationPage = new PageObject.RegistrationPage(driver);
 		registrationPage.registerUserError(user);
+		driver.close();
 		
     }
 
