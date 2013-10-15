@@ -31,16 +31,16 @@ public class rrrTest {
 
 			User user = User.createValidUser();
 			user.setPostCode("73321");
-			PageObject.HomePage homePage = new PageObject.HomePage(driver);
-		    homePage.clickRegister();
-			ScheduledExecutorService worker = Executors.newSingleThreadScheduledExecutor();
-				
-			
-			// (new WebDriverWait(driver, 10))
-			// .until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='firstNameText']")));
-
-			PageObject.RegistrationPage registrationPage = new PageObject.RegistrationPage(driver);
-			registrationPage.registerUserError(user);
+//			PageObject.HomePage homePage = new PageObject.HomePage(driver);
+//		    homePage.clickRegister();
+//			ScheduledExecutorService worker = Executors.newSingleThreadScheduledExecutor();
+//				
+//			
+//			// (new WebDriverWait(driver, 10))
+//			// .until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='firstNameText']")));
+//
+//			PageObject.RegistrationPage registrationPage = new PageObject.RegistrationPage(driver);
+//			registrationPage.registerUserError(user);
 			
 	    }
 	
