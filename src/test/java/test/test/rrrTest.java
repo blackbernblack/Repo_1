@@ -43,7 +43,7 @@ public class rrrTest {
 	
 	@Test
 	public void main8() {
-	ert	Assert.assertEquals(true, true);
+	Assert.assertEquals(true, true);
  	}
 	
 	@Test
