@@ -1,10 +1,9 @@
 package com.example.hellomaven;
 
-import org.junit.Test;
 
 public class HelloMavenMain {
 
-	@Test
+	
 	
 	/**
 	 * @param args
