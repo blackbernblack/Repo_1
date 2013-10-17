@@ -49,7 +49,7 @@ public class rrrTest {
 	@Test
 	public void main() {
 	    System.out.println("HELLLLLLLLLooooo");
-	    testSelenium();
+	    testWebDriver();
 	    System.out.println("==End of test==");
 	}
 	
