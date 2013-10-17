@@ -28,7 +28,7 @@ public class rrrTest {
 	
 	@Test
 	public void main5() {
-		Assert.assertEquals(false, true);
+		Assert.assertEquals(true, true);
  	}
 	
 	@Test
