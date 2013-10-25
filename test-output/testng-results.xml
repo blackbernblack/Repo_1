@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5296" started-at="2013-10-23T15:53:50Z" finished-at="2013-10-23T15:53:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5296" started-at="2013-10-23T15:53:50Z" finished-at="2013-10-23T15:53:55Z">
+      <class name="test.test.rrrTest">
+        <test-method status="PASS" signature="main()[pri:0, instance:test.test.rrrTest@687090a8]" name="main" duration-ms="5281" started-at="2013-10-23T18:53:50Z" finished-at="2013-10-23T18:53:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main4()[pri:0, instance:test.test.rrrTest@687090a8]" name="main4" duration-ms="1" started-at="2013-10-23T18:53:55Z" finished-at="2013-10-23T18:53:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main4 -->
+        <test-method status="PASS" signature="main5()[pri:0, instance:test.test.rrrTest@687090a8]" name="main5" duration-ms="1" started-at="2013-10-23T18:53:55Z" finished-at="2013-10-23T18:53:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main5 -->
+        <test-method status="PASS" signature="main6()[pri:0, instance:test.test.rrrTest@687090a8]" name="main6" duration-ms="0" started-at="2013-10-23T18:53:55Z" finished-at="2013-10-23T18:53:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main6 -->
+        <test-method status="PASS" signature="main7()[pri:0, instance:test.test.rrrTest@687090a8]" name="main7" duration-ms="1" started-at="2013-10-23T18:53:55Z" finished-at="2013-10-23T18:53:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main7 -->
+        <test-method status="PASS" signature="main8()[pri:0, instance:test.test.rrrTest@687090a8]" name="main8" duration-ms="1" started-at="2013-10-23T18:53:55Z" finished-at="2013-10-23T18:53:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main8 -->
+      </class> <!-- test.test.rrrTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

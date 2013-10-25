@@ -6,8 +6,11 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -49,7 +52,7 @@ public class rrrTest {
 	@Test
 	public void main() {
 	    System.out.println("HELLLLLLLLLooooo");
-	    testSelenium();
+	    testWebDriver();
 	    System.out.println("==End of test==");
 	}
 	
@@ -70,12 +73,13 @@ public class rrrTest {
 			user.setPostCode("73321");
 			PageObject.HomePage homePage = new PageObject.HomePage(driver);
 		    homePage.clickRegister();
+		
+			ScheduledExecutorService worker = Executors.newSingleThreadScheduledExecutor();
+			 (new WebDriverWait(driver, 10))
+			 .until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='firstNameText']")));
+			PageObject.RegistrationPage registrationPage = new PageObject.RegistrationPage(driver);
+			registrationPage.registerUserError(user);
 		    driver.close();
 		    driver.quit();
-//			ScheduledExecutorService worker = Executors.newSingleThreadScheduledExecutor();
-//			// (new WebDriverWait(driver, 10))
-//			// .until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='firstNameText']")));
-//			PageObject.RegistrationPage registrationPage = new PageObject.RegistrationPage(driver);
-//			registrationPage.registerUserError(user);
     }
 }
