@@ -31,7 +31,7 @@ public class rrrTest {
 	
 	@Test
 	public void main5() {
-		Assert.assertEquals(true, true);
+		Assert.assertEquals(true, false, "This is forced error");
  	}
 	
 	@Test
@@ -46,7 +46,7 @@ public class rrrTest {
 	
 	@Test
 	public void main8() {
-	Assert.assertEquals(true, true);
+	Assert.assertEquals(false, true,"This is forced error");
  	}
 	
 	@Test
