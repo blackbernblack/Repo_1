@@ -5,7 +5,8 @@
     <classes>
       <class name="test.test.rrrTest">
         <methods>
-          <include name="main"/>
+          <include name="main5"/>
+          <include name="main8"/>
         </methods>
       </class> <!-- test.test.rrrTest -->
     </classes>

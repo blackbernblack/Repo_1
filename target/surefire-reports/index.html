@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-test.test.rrrTest">
-              <span class="suite-name border-passed">test.test.rrrTest</span>
+              <span class="suite-name border-failed">test.test.rrrTest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,7 +90,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">6 methods, 2 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-test.test.rrrTest" class="hide-methods failed suite-test.test.rrrTest"> (hide)</a> <!-- hide-methods failed suite-test.test.rrrTest -->
+                      <a href="#" panel-name="suite-test.test.rrrTest" class="show-methods failed suite-test.test.rrrTest"> (show)</a> <!-- show-methods failed suite-test.test.rrrTest -->
+                    </span>
+                    <div class="method-list-content failed suite-test.test.rrrTest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test.test.rrrTest" title="test.test.rrrTest" hash-for-method="main5">main5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test.test.rrrTest" title="test.test.rrrTest" hash-for-method="main8">main8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-test.test.rrrTest -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -111,22 +130,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-test.test.rrrTest" title="test.test.rrrTest" hash-for-method="main5">main5</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-test.test.rrrTest" title="test.test.rrrTest" hash-for-method="main6">main6</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-test.test.rrrTest" title="test.test.rrrTest" hash-for-method="main7">main7</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-test.test.rrrTest" title="test.test.rrrTest" hash-for-method="main8">main8</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-test.test.rrrTest -->
@@ -141,6 +150,36 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-test.test.rrrTest" class="panel test.test.rrrTest">
+          <div class="suite-test.test.rrrTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.test.rrrTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="main5">
+                  </a> <!-- main5 -->
+                  <span class="method-name">main5</span>
+                  <div class="stack-trace">java.lang.AssertionError: This is forced error expected [false] but found [true]
+	at test.test.rrrTest.main5(rrrTest.java:34)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="main8">
+                  </a> <!-- main8 -->
+                  <span class="method-name">main8</span>
+                  <div class="stack-trace">java.lang.AssertionError: This is forced error expected [true] but found [false]
+	at test.test.rrrTest.main8(rrrTest.java:49)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test.test.rrrTest-class-failed -->
           <div class="suite-test.test.rrrTest-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -163,13 +202,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="main5">
-                  </a> <!-- main5 -->
-                  <span class="method-name">main5</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="main6">
                   </a> <!-- main6 -->
                   <span class="method-name">main6</span>
@@ -180,13 +212,6 @@
                   <a name="main7">
                   </a> <!-- main7 -->
                   <span class="method-name">main7</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="main8">
-                  </a> <!-- main8 -->
-                  <span class="method-name">main8</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -246,23 +271,23 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'main')
 data.setCell(0, 2, 'test.test.rrrTest')
-data.setCell(0, 3, 11148);
+data.setCell(0, 3, 19177);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'main4')
 data.setCell(1, 2, 'test.test.rrrTest')
-data.setCell(1, 3, 6);
+data.setCell(1, 3, 22);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'main7')
+data.setCell(2, 1, 'main5')
 data.setCell(2, 2, 'test.test.rrrTest')
-data.setCell(2, 3, 1);
+data.setCell(2, 3, 2);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'main6')
 data.setCell(3, 2, 'test.test.rrrTest')
 data.setCell(3, 3, 1);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'main5')
+data.setCell(4, 1, 'main7')
 data.setCell(4, 2, 'test.test.rrrTest')
-data.setCell(4, 3, 1);
+data.setCell(4, 3, 0);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'main8')
 data.setCell(5, 2, 'test.test.rrrTest')
@@ -271,7 +296,7 @@ window.suiteTableData['test.test.rrrTest']= { tableData: data, tableDiv: 'times-
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
               <div id="times-div-test.test.rrrTest">
               </div> <!-- times-div-test.test.rrrTest -->
             </div> <!-- times-div -->
@@ -304,23 +329,27 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">main4</span>
-                <span class="method-start">11150 ms</span>
+                <span class="method-start">19178 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">main5</span>
-                <span class="method-start">11157 ms</span>
+                <span class="method-start">19201 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">main6</span>
-                <span class="method-start">11159 ms</span>
+                <span class="method-start">19209 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">main7</span>
-                <span class="method-start">11161 ms</span>
+                <span class="method-start">19211 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">main8</span>
-                <span class="method-start">11163 ms</span>
+                <span class="method-start">19213 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
