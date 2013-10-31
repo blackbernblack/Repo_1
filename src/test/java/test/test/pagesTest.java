@@ -1,11 +1,6 @@
 package test.test;
 
 
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
-
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -63,12 +58,11 @@ public class pagesTest {
 		user.setPostCode("73321");
 		PageObject.HomePage homePage = new PageObject.HomePage(driver);
 		homePage.clickRegister();
-
-		ScheduledExecutorService worker = Executors.newSingleThreadScheduledExecutor();
 		(new WebDriverWait(driver, 10)).until(ExpectedConditions.presenceOfElementLocated(By
 						.xpath("//input[@name='firstNameText']")));
 		PageObject.RegistrationPage registrationPage = new PageObject.RegistrationPage(driver);
 		registrationPage.registerUserError(user);
+		Assert.assertTrue(registrationPage.isPostValidator());
 		driver.close();
 		driver.quit();
 	}

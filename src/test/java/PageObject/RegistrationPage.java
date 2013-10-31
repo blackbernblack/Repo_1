@@ -21,6 +21,7 @@ public class RegistrationPage {
 	private static final String postCodePath = "//input[@name='addressPanel:postcodeSearchPanel:postcodeSearchText']";
 	private static final String genderPath = "//div[@class='b-formItemColHolder']/div[last()]//div[@class='b-formItemRow']/div";
 	private static final String userNamePath = "//input[@name='usernameText']";
+	private static final String postValidatorPath = "//p[@class='b-formErrorText']";
 	
     private WebDriver driver;
     
@@ -29,6 +30,9 @@ public class RegistrationPage {
     
     @FindBy(xpath = userNamePath)
 	public WebElement userName;
+    
+    @FindBy(xpath = postValidatorPath)
+  	public WebElement postValidator;
     
 	@FindBy(xpath = firstNamePath)
 	public WebElement firstName;
@@ -68,13 +72,6 @@ public class RegistrationPage {
 	public WebElement gender;
 
     public RegistrationPage(WebDriver driver) {
-        // проверить, что вы находитесь на верной странице
-//        if (!driver.getCurrentUrl().contains(URL_MATCH)) {
-//                    throw new IllegalStateException(
-//                        "This is not the page you are expected"
-//                        );
-//        }
- 
         PageFactory.initElements(driver, this);
         this.driver = driver;
     }
@@ -108,22 +105,20 @@ public class RegistrationPage {
         createAccountBtn.click();
     }
     
+    public boolean isPostValidator() {
+    	waitForElementPresent(postValidatorPath);
+    	return driver.findElements(By.xpath(postValidatorPath)).size() != 0;
+    }
+    
     public void waitForElementPresent(final String elementPath){
     	while(driver.findElements(By.xpath(elementPath)).size() == 0){
     				try {
-    					System.out.println("Sleep");
-						Thread.sleep(1000);
+    					Thread.sleep(1000);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
     	    	}
-//    		(new WebDriverWait(driver, 1)).until(new ExpectedCondition<WebElement>(){
-//    			@Override
-//    			public WebElement apply(WebDriver d) {
-//    				return d.findElement(By.xpath(elementPath));
-//    			}});
-    	
     }
  
      public HomePage registerUserSuccess(User user) {
