@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
  
 public class RegistrationPage {
  
@@ -22,6 +24,9 @@ public class RegistrationPage {
 	private static final String genderPath = "//div[@class='b-formItemColHolder']/div[last()]//div[@class='b-formItemRow']/div";
 	private static final String userNamePath = "//input[@name='usernameText']";
 	private static final String postValidatorPath = "//p[@class='b-formErrorText']";
+	private static final String monthPath = "//div[@class='b-fakeSelect b-form-select b-registerPopup-select-month collapsible']/div[1]/div[2]";
+	private static final String titleMrPath = "//div[text()='Mr']";
+	private static final String monthSeptemberPath = "//div[@class='b-fakeSelect-options collapsible']//div[9]";
 	
     private WebDriver driver;
     
@@ -64,9 +69,8 @@ public class RegistrationPage {
 	@FindBy(xpath = postCodePath)
 	public WebElement postCode;
 	
-	@FindBy(xpath = "//div[@class='b-fakeSelect b-form-select b-registerPopup-select-month collapsible']/div[1]/div[2]")
+	@FindBy(xpath = monthPath)
 	public WebElement monthBirth;
-	
 	
     @FindBy(xpath = genderPath)
 	public WebElement gender;
@@ -82,52 +86,51 @@ public class RegistrationPage {
      */
     private void registerUser(User user) {
     	waitForElementPresent(firstNamePath);
-        firstName.sendKeys(user.firstName);
-        mideleName.sendKeys(user.mideleName);
-        lastName.sendKeys(user.lastName);
-        email.sendKeys(user.email);
-        confirmMail.sendKeys(user.confirmMail);
-        dayBirth.sendKeys(user.dayBirth);
-        yearBirth.sendKeys(user.yearBirth);
-        password.sendKeys(user.password);
-        passwordConfirmation.sendKeys(user.passwordConfirmation);
-        postCode.sendKeys(user.postCode);
-        userName.sendKeys(user.userName);
+        firstName.sendKeys(user.getFirstName());
+        mideleName.sendKeys(user.getMideleName());
+        lastName.sendKeys(user.getLastName());
+        email.sendKeys(user.getEmail());
+        confirmMail.sendKeys(user.getConfirmMail());
+        dayBirth.sendKeys(user.getDayBirth());
+        yearBirth.sendKeys(user.getYearBirth());
+        password.sendKeys(user.getPassword());
+        passwordConfirmation.sendKeys(user.getPassword());
+        postCode.sendKeys(user.getPostCode());
+        userName.sendKeys(user.getUserName());
         driver.findElement(By.cssSelector("div.b-fakeSelect-current-arrow")).click();
-        driver.findElement(By.xpath("//div[text()='Mr']")).click();
+        driver.findElement(By.xpath(titleMrPath)).click();
         monthBirth.click();
-        
-        driver.findElement(By.xpath("//div[@class='b-fakeSelect-options collapsible']//div[9]")).click();
-        
+        driver.findElement(By.xpath(monthSeptemberPath)).click();
         gender.click();
-        
         gender.sendKeys("F");
         createAccountBtn.click();
     }
     
-    public boolean isPostValidator() {
+    public boolean isPostValidatorPresent() {
     	waitForElementPresent(postValidatorPath);
     	return driver.findElements(By.xpath(postValidatorPath)).size() != 0;
     }
     
-    public void waitForElementPresent(final String elementPath){
-    	while(driver.findElements(By.xpath(elementPath)).size() == 0){
-    				try {
-    					Thread.sleep(1000);
-					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-    	    	}
-    }
+    public void waitForElementPresent(final String xpath){
+    	  WebDriverWait wait = new WebDriverWait(driver, 10);
+          wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
+//		while (driver.findElements(By.xpath(xpath)).size() == 0) {
+//			try {
+//				Thread.sleep(1000);
+//			} catch (InterruptedException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
+//		}
+	}
  
-     public HomePage registerUserSuccess(User user) {
-        registerUser(user);
-        return new HomePage(driver);
-    }
- 
-    public RegistrationPage registerUserError(User user) {
-        registerUser(user);
-        return new RegistrationPage(driver);
-    }
+	public HomePage registerUserSuccess(User user) {
+		registerUser(user);
+		return new HomePage(driver);
+	}
+
+	public RegistrationPage registerUserError(User user) {
+		registerUser(user);
+		return new RegistrationPage(driver);
+	}
 }

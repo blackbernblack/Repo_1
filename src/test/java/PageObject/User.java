@@ -1,7 +1,6 @@
 package PageObject;
 
 public class User {
-	public String title = "Mr";
 	public String getTitle() {
 		return title;
 	}
@@ -97,17 +96,7 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-
-	public String getPasswordConfirmation() {
-		return passwordConfirmation;
-	}
-
-	public void setPasswordConfirmation(String passwordConfirmation) {
-		this.passwordConfirmation = passwordConfirmation;
-	}
-
-	public String gender = "M";
-	public String userName = "userName";
+	
 	public String getUserName() {
 		return userName;
 	}
@@ -115,20 +104,22 @@ public class User {
 	public void setUserName(String userName) {
 		this.userName = userName;
 	}
-
-	public String firstName = "Vin";
-	public String mideleName = "Mak";
-	public String lastName = "Diesel";
-	public String email = "wmmpoken@sharklasers.com";
-	public String confirmMail = "wmmpoken@sharklasers.com";
-	public String dayBirth = "12";
-	public String monthBirth = "Ju";
-	public String yearBirth = "2000";
-	public String postCode = "73000";
-	public String password = "123456789";
-	public String passwordConfirmation = "123456789";
 	
 	public static User createValidUser() {
 		return new User();
 	}
+	
+	public String title = "Mr";
+	public String gender = "M";
+	public String userName = "userName";
+	private String firstName = "Vin";
+	private String mideleName = "Mak";
+	private String lastName = "Diesel";
+	private String email = "wmmpoken@sharklasers.com";
+	private String confirmMail = "wmmpoken@sharklasers.com";
+	private String dayBirth = "12";
+	private String monthBirth = "Ju";
+	private String yearBirth = "2000";
+	private String postCode = "73000";
+	private String password = "123456789";
 }
