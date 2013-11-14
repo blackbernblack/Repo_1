@@ -11,7 +11,8 @@ public class pagesTest {
 	
 	@Test
 	public void testSomeFails() {
-		assertEquals(true, true, "Values are not equal");
+		assertEquals(false, true, "Values are not equal");
+		//some changes
 	}
 
 	@Test
