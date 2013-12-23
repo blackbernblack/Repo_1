@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\tkonstantinov\AppData\Local\Temp\testng-eclipse--587633939\testng-customsuite.xml</span>
+                    <span>C:\Users\tkonstantinov\AppData\Local\Temp\testng-eclipse--1391440727\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,7 +101,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.test.pagesTest" hash-for-method="testSomeFails">testSomeFails</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.test.pagesTest" hash-for-method="testSomeFails3">testSomeFails3</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -116,6 +116,21 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.test.pagesTest" hash-for-method="testRegistration">testRegistration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.test.pagesTest" hash-for-method="testSomeFails">testSomeFails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.test.pagesTest" hash-for-method="testSomeFails2">testSomeFails2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.test.pagesTest" hash-for-method="testSomeFails4">testSomeFails4</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -138,15 +153,15 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testSomeFails">
-                  </a> <!-- testSomeFails -->
-                  <span class="method-name">testSomeFails</span>
+                  <a name="testSomeFails3">
+                  </a> <!-- testSomeFails3 -->
+                  <span class="method-name">testSomeFails3</span>
                   <div class="stack-trace">java.lang.AssertionError: Values are not equal expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
 	at org.testng.Assert.assertEquals(Assert.java:286)
-	at test.test.pagesTest.testSomeFails(pagesTest.java:14)
+	at test.test.pagesTest.testSomeFails3(pagesTest.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -190,12 +205,33 @@
                   <span class="method-name">testRegistration</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSomeFails">
+                  </a> <!-- testSomeFails -->
+                  <span class="method-name">testSomeFails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSomeFails2">
+                  </a> <!-- testSomeFails2 -->
+                  <span class="method-name">testSomeFails2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSomeFails4">
+                  </a> <!-- testSomeFails4 -->
+                  <span class="method-name">testSomeFails4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\tkonstantinov\AppData\Local\Temp\testng-eclipse--587633939\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\tkonstantinov\AppData\Local\Temp\testng-eclipse--1391440727\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -244,20 +280,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testRegistration')
 data.setCell(0, 2, 'test.test.pagesTest')
-data.setCell(0, 3, 20725);
+data.setCell(0, 3, 15);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testSomeFails')
 data.setCell(1, 2, 'test.test.pagesTest')
-data.setCell(1, 3, 1);
+data.setCell(1, 3, 10);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSomeFails2')
+data.setCell(2, 2, 'test.test.pagesTest')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSomeFails3')
+data.setCell(3, 2, 'test.test.pagesTest')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSomeFails4')
+data.setCell(4, 2, 'test.test.pagesTest')
+data.setCell(4, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 27 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -289,10 +337,22 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <span class="method-name">testSomeFails</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSomeFails2</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">testSomeFails</span>
-                <span class="method-start">20726 ms</span>
+                <span class="method-name">testSomeFails3</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSomeFails4</span>
+                <span class="method-start">29 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
