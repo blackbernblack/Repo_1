@@ -28,7 +28,7 @@
     <commandline rank="0" time="20100128-195406.590832" duration="0.599782943726">the_first_command_executed</commandline>
     <commandline rank="1" time="20100128-195406.590832" duration="0.599782943726">the_second_command_executed</commandline>
     <result>
-      <success passed="no" state="70" hasTimedOut="false" />
+      <success passed="yes state="70" hasTimedOut="false" />
       <compiletime unit="s" mesure="1.7822562233237937" isRelevant="true" />
       <performance unit="GFLOPs" mesure="19.392586231674137" isRelevant="true" />
       <executiontime unit="s" mesure="6.929545600680276" isRelevant="false" />
