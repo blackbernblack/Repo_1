@@ -5,10 +5,10 @@
     <time format="HHMMSS" val="195043" />
   </start>
   
-  <test name="/file_0/test_0" executed="yes">
-    <description><![CDATA[This is the description of the test number 0 member of the 0 file.]]></description>
+    <test name="/file_2/test_1" executed="no">
+    <description><![CDATA[This is the description of the test number 1 member of the 2 file.]]></description>
     <targets>
-      <target threaded="false">JAVA SELENIUM TESTS For ROBOREUS</target>
+      <target threaded="false">C</target>
     </targets>
     <platform name="Plateform_0" remote="unknown" capspool="unknown">
       <os>
@@ -28,12 +28,14 @@
     <commandline rank="0" time="20100128-195406.590832" duration="0.599782943726">the_first_command_executed</commandline>
     <commandline rank="1" time="20100128-195406.590832" duration="0.599782943726">the_second_command_executed</commandline>
     <result>
-      <success passed="yes state="70" hasTimedOut="false" />
-      <compiletime unit="s" mesure="1.7822562233237937" isRelevant="true" />
-      <performance unit="GFLOPs" mesure="19.392586231674137" isRelevant="true" />
-      <executiontime unit="s" mesure="6.929545600680276" isRelevant="false" />
-      <errorlog><![CDATA[EXEMPLE OF ERROR LOG]]></errorlog>
+      <success passed="yes" state="100" hasTimedOut="false" />
+      <compiletime unit="s" mesure="0.4895990610675429" isRelevant="false" />
+      <performance unit="GFLOPs" mesure="14.75582949567177" isRelevant="true" />
+      <executiontime unit="s" mesure="3.430549078291598" isRelevant="false" />
+      <log name="NameOfLogNumber0"><![CDATA[Here it's another of other log]]></log>
+      <log name="NameOfLogNumber1"><![CDATA[Here it's another of other log]]></log>
     </result>
+  </test>
   
 </report>
 
