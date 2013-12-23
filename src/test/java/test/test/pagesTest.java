@@ -14,6 +14,25 @@ public class pagesTest {
 		assertEquals(true, true, "Values are not equal");
 		//some changes
 	}
+	
+	@Test
+	public void testSomeFails2() {
+		assertEquals(true, true, "Values are not equal");
+		//some changes
+	}
+	
+	
+	@Test
+	public void testSomeFails3() {
+		assertEquals(true, false, "Values are not equal");
+		//some changes
+	}
+	
+	@Test
+	public void testSomeFails4() {
+		assertEquals(true, true, "Values are not equal");
+		//some changes
+	}
 
 	@Test
 	public void testRegistration() {
@@ -21,7 +40,7 @@ public class pagesTest {
 	}
 
 	public void testWebDriver() {
-		WebDriver driver = new FirefoxDriver();
+		/*WebDriver driver = new FirefoxDriver();
 		driver.get("https://geolotto.co.uk/");
 		User user = User.createValidUser();
 		user.setPostCode("73321");
@@ -31,6 +50,6 @@ public class pagesTest {
 		registrationPage.registerUserError(user);
 		assertTrue(registrationPage.isPostValidatorPresent(), "Post validator is not found");
 		driver.close();
-		driver.quit();
+		driver.quit();*/
 	}
 }
