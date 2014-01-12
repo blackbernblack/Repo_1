@@ -10,21 +10,8 @@
     <targets>
       <target threaded="false">C</target>
     </targets>
-    <platform name="Plateform_0" remote="unknown" capspool="unknown">
-      <os>
-        <type><![CDATA[Linux-2.6.26-2-amd64-x86_64-with-glibc2.3.2]]></type>
-        <name><![CDATA[Linux]]></name>
-        <version><![CDATA[2.6.26-2-amd64]]></version>
-        <distribution><![CDATA[Linux-2.6.26-2-amd64-x86_64-with-debian-5.0.3]]></distribution>
-      </os>
-      <processor arch="x86_64">
-        <frequency unit="MHz" cpufreq="2667.000" />
-      </processor>
-      <hardware><![CDATA[nVidia Corporation GeForce 8500 GT (rev a1)]]></hardware>
-      <hardware><![CDATA[nVidia Corporation GT200 [Tesla C1060 / Tesla S1070] (rev a1)]]></hardware>
-      <compiler name="ifort" version="11.0 20090131" path="." />
-      <environment>{PUT HERE ALL YOUR LIBS AND THE DESCRIPTION OF YOUR TEST ENVIRONMENT}</environment>
-    </platform>
+
+
     <commandline rank="0" time="20100128-195406.590832" duration="0.599782943726">the_first_command_executed</commandline>
     <commandline rank="1" time="20100128-195406.590832" duration="0.599782943726">the_second_command_executed</commandline>
     <result>
