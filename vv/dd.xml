@@ -22,7 +22,7 @@
   </test>
   <test executed="yes" name="testName190.0">
     <result>
-      <success passed="yes" state="100"/>
+      <success passed="no" state="100"/>
     </result>
   </test>
   <test executed="yes" name="testName56.0">
@@ -32,10 +32,10 @@
   </test>
   <test executed="yes" name="testName201.0">
     <result>
-      <success passed="yes" state="100"/>
+      <success passed="yes" state="50"/>
     </result>
   </test>
-  <test executed="yes" name="testName56.0">
+  <test executed="no" name="testName56.0">
     <result>
       <success passed="yes" state="100"/>
     </result>
