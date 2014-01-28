@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <report categ="GeneratedReport284" name="ReportName_139">
-  <test executed="yes" name="testName35.0">
+  <test executed="boken" name="testName35.0">
     <result>
       <success passed="yes" state="100"/>
     </result>
