@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><report categ="GeneratedReport" name="1">
+  <test executed="yes" name="testAdminGroupEditPageIsShown">
+    <result>
+      <success passed="no" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testAdminGroupEditPageIsShown2">
+    <result>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+</report>
