@@ -1,10 +1,106 @@
-<?xml version="1.0" encoding="UTF-8"?><report categ="GeneratedReport" name="1">
-  <test executed="yes" name="testAdminGroupEditPageIsShown">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<report categ="GeneratedReport284" name="ReportName_139">
+  <test executed="boken" name="testName35.0">
+    <result>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testName100.0">
+    <result>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testName259.0">
+    <result>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testName171.0">
+    <result>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testName190.0">
     <result>
       <success passed="no" state="100"/>
     </result>
   </test>
-  <test executed="yes" name="testAdminGroupEditPageIsShown2">
+  <test executed="yes" name="testName56.0">
+    <result>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testName201.0">
+    <result>
+      <success passed="yes" state="50"/>
+    </result>
+  </test>
+  <test executed="no" name="testName56.0">
+    <result>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testName45.0">
+    <result>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testName50.0">
+    <result>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testName195.0">
+    <result>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testName162.0">
+    <result>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testName250.0">
+    <result>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testName27.0">
+    <result>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testName14.0">
+    <result>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testName258.0">
+    <result>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testName133.0">
+    <result>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testName54.0">
+    <result>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testName193.0">
+    <result>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testName265.0">
+    <result>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testName78.0">
     <result>
       <success passed="yes" state="100"/>
     </result>
