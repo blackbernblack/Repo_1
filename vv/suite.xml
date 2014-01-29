@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><report categ="GeneratedReport" name="xxxxx">
   <test executed="yes" name="testAdminGroupEditPageIsShown">
+    <description>Check that we can switch to editing Admin Group</description>
     <targets>
       <target>BBBB</target>
     </targets>
@@ -8,6 +9,7 @@
     </result>
   </test>
   <test executed="yes" name="testAdminGroupEditPageIsShown2">
+    <description>Ability to Change Amount During Topup And Get Bonus Cash TC_TT424_TT426_TT427_TT431_TT2154_TT3242_TT3262_TT3303_TC18718</description>
     <targets>
       <target>BBBB</target>
     </targets>
