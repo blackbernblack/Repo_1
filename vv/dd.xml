@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><report categ="GeneratedReport" name="dgdgggd">
   <test executed="yes" name="testAdminGroupEditPageIsShown">
-    <targets>
-      <target threaded="false">BBBB</target>
+   <targets>
+      <target threaded="false">CFF</target>
     </targets>
     <result>
       <success passed="no" state="100"/>
