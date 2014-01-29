@@ -1,18 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?><report categ="GeneratedReport" name="dgdgggd">
-  <test executed="yes" name="testAdminGroupEditPageIsShown">
-   <targets>
-      <target threaded="false">CFF</target>
-    </targets>
-    <result>
-      <success passed="no" state="100"/>
-    </result>
-  </test>
-  <test executed="yes" name="testAdminGroupEditPageIsShown2">
+<?xml version="1.0" encoding="UTF-8"?>
+<report name="GeneratedReport-0" categ="GeneratedReport">
+  <start>
+    <date format="YYYYMMDD" val="20000101" />
+    <time format="HHMMSS" val="195043" />
+  </start>
+  
+    <test name="/file_2/test_1" executed="no">
+    <description><![CDATA[This is the description of the test number 1 member of the 2 file.]]></description>
     <targets>
-      <target threaded="false">BBBB</target>
+      <target threaded="false">C</target>
     </targets>
+
+
+    <commandline rank="0" time="20100128-195406.590832" duration="0.599782943726">the_first_command_executed</commandline>
+    <commandline rank="1" time="20100128-195406.590832" duration="0.599782943726">the_second_command_executed</commandline>
     <result>
-      <success passed="yes" state="100"/>
+      <success passed="yes" state="100" hasTimedOut="false" />
+      <compiletime unit="s" mesure="0.4895990610675429" isRelevant="false" />
+      <performance unit="GFLOPs" mesure="14.75582949567177" isRelevant="true" />
+      <executiontime unit="s" mesure="3.430549078291598" isRelevant="false" />
+      <log name="NameOfLogNumber0"><![CDATA[Here it's another of other log]]></log>
+      <log name="NameOfLogNumber1"><![CDATA[Here it's another of other log]]></log>
     </result>
   </test>
+  
+  
+  <test name="/file_1/test_0" executed="yes">
+    <description><![CDATA[This is the description of the test number 0 member of the 1 file.]]></description>
+    <targets>
+      <target threaded="false">FORTRAN</target>
+    </targets>
+    <platform name="Plateform_0" remote="unknown" capspool="unknown">
+      <os>
+        <type><![CDATA[Linux-2.6.26-2-amd64-x86_64-with-glibc2.3.2]]></type>
+        <name><![CDATA[Linux]]></name>
+        <version><![CDATA[2.6.26-2-amd64]]></version>
+        <distribution><![CDATA[Linux-2.6.26-2-amd64-x86_64-with-debian-5.0.3]]></distribution>
+      </os>
+      <processor arch="x86_64">
+        <frequency unit="MHz" cpufreq="2667.000" />
+      </processor>
+      <hardware><![CDATA[nVidia Corporation GeForce 8500 GT (rev a1)]]></hardware>
+      <hardware><![CDATA[nVidia Corporation GT200 [Tesla C1060 / Tesla S1070] (rev a1)]]></hardware>
+      <compiler name="ifort" version="11.0 20090131" path="." />
+      <environment>{PUT HERE ALL YOUR LIBS AND THE DESCRIPTION OF YOUR TEST ENVIRONMENT}</environment>
+    </platform>
+    <commandline rank="0" time="20100128-195406.590832" duration="0.599782943726">the_first_command_executed</commandline>
+    <commandline rank="1" time="20100128-195406.590832" duration="0.599782943726">the_second_command_executed</commandline>
+    <result>
+      <success passed="yes" state="100" hasTimedOut="false" />
+      <compiletime unit="s" mesure="1.5988766642239531" isRelevant="true" />
+      <performance unit="GFLOPs" mesure="25.860351332098656" isRelevant="false" />
+      <executiontime unit="s" mesure="0.7766081830182936" isRelevant="true" />
+      <log name="NameOfLogNumber0"><![CDATA[Here it's another of other log]]></log>
+      <log name="NameOfLogNumber1"><![CDATA[Here it's another of other log]]></log>
+      <log name="NameOfLogNumber2"><![CDATA[Here it's another of other log]]></log>
+    </result>
+  </test>
+  
 </report>
+
