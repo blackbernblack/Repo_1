@@ -4,8 +4,17 @@
       <target>[AdminGroup, 1231, AdminSite]</target>
     </targets>
     <result>
-      <success passed="no" state="100"/>
       <executiontime isRelevant="true" mesure="8" unit="s"/>
+      <success passed="no" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testAdminGroupEditPageIsShown2">
+    <targets>
+      <target>[AdminGroup, 1231, AdminSite]</target>
+    </targets>
+    <result>
+      <executiontime isRelevant="true" mesure="1" unit="s"/>
+      <success passed="yes" state="100"/>
     </result>
   </test>
 </report>
