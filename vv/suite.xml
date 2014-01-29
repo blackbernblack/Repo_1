@@ -4,7 +4,7 @@
       <target>[AdminGroup, 1231, AdminSite]</target>
     </targets>
     <result>
-      <executiontime isRelevant="true" measure="8" unit="s"/>
+      <executiontime isRelevant="true" mesure="8" unit="s"/>
       <success passed="no" state="100"/>
     </result>
   </test>
@@ -13,7 +13,7 @@
       <target>[AdminGroup, 1231, AdminSite]</target>
     </targets>
     <result>
-      <executiontime isRelevant="true" measure="0" unit="s"/>
+      <executiontime isRelevant="true" mesure="1" unit="s"/>
       <success passed="yes" state="100"/>
     </result>
   </test>
