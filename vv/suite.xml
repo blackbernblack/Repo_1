@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><report categ="GeneratedReport" name="xxxxx">
-  <test executed="yes" name="testAdminGroupEditPageIsShown">
+  <test executed="yes" name="lockingOutAdmin">
     <targets>
-      <target>[AdminGroup, 1231, AdminSite]</target>
+      <target>[AdminLogin, 1231, AdminSite]</target>
     </targets>
     <result>
-      <executiontime isRelevant="true" mesure="8" unit="s"/>
-      <success passed="no" state="70" hasTimedOut="true"/>
-    </result>
-  </test>
-  <test executed="yes" name="testAdminGroupEditPageIsShown2">
-    <targets>
-      <target>[AdminGroup, 1231, AdminSite]</target>
-    </targets>
-    <result>
-      <executiontime isRelevant="true" mesure="1" unit="s"/>
-      <success passed="yes" state="100"/>
+      <executiontime isRelevant="true" mesure="70" unit="s"/>
+      <success passed="no" state="100"/>
     </result>
   </test>
 </report>
