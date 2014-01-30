@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><report categ="AdminLoginTest" name="AdminLoginTest">
+  <test executed="yes" name="adminTestLogin_attemptToLoginWithArchivedAdmin_userArchived">
+    <targets>
+      <target>[AdminLogin, 1231, AdminSite]</target>
+    </targets>
+    <result>
+      <executiontime isRelevant="true" mesure="0" unit="s"/>
+      <success passed="no" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="lockingOutAdmin">
+    <targets>
+      <target>[AdminLogin, 1231, AdminSite]</target>
+    </targets>
+    <result>
+      <executiontime isRelevant="true" mesure="0" unit="s"/>
+      <success passed="no" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="inabilityToChangeAmendBalanceForUserThatNoLongerPlays">
+    <targets>
+      <target>[AdminUserSummary, 1231]</target>
+    </targets>
+    <result>
+      <executiontime isRelevant="true" mesure="0" unit="s"/>
+      <success passed="no" state="100"/>
+    </result>
+  </test>
+</report>
