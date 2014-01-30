@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><report categ="LogonUKTest" name="LogonUKTest">
+  <test executed="yes" name="testAttemptingToLogInWithAForbiddenUser">
+    <targets>
+      <target>[LoginUK, CommonUK, Admin]</target>
+    </targets>
+    <result>
+      <executiontime isRelevant="true" mesure="0" unit="s"/>
+      <success hasTimedOut="true" passed="no" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testLoggingOutFromHeader">
+    <targets>
+      <target>[LoginUK, AcceptanceQA]</target>
+    </targets>
+    <result>
+      <executiontime isRelevant="true" mesure="0" unit="s"/>
+      <success hasTimedOut="true" passed="no" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testLoginFormAppearsAfterUnsuccessfulLoginAttempt">
+    <targets>
+      <target>[LoginUK, CommonUK]</target>
+    </targets>
+    <result>
+      <executiontime isRelevant="true" mesure="0" unit="s"/>
+      <success hasTimedOut="true" passed="no" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testLoginInvalidUserWithValidPassword">
+    <targets>
+      <target>[LoginUK, CommonUK]</target>
+    </targets>
+    <result>
+      <executiontime isRelevant="true" mesure="0" unit="s"/>
+      <success hasTimedOut="true" passed="no" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testLoginInvalidUsernameAndPassword">
+    <targets>
+      <target>[LoginUK, CommonUK]</target>
+    </targets>
+    <result>
+      <executiontime isRelevant="true" mesure="0" unit="s"/>
+      <success hasTimedOut="true" passed="no" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testLoginValidUserWithInvalidPassword">
+    <targets>
+      <target>[LoginUK, CommonUK]</target>
+    </targets>
+    <result>
+      <executiontime isRelevant="true" mesure="0" unit="s"/>
+      <success hasTimedOut="true" passed="no" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testLogin_ConfirmedUser">
+    <targets>
+      <target>[LoginUK, CommonUK]</target>
+    </targets>
+    <result>
+      <executiontime isRelevant="true" mesure="0" unit="s"/>
+      <success hasTimedOut="true" passed="no" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testLogin_SpacesAroundPassword_SuccessfulLogin">
+    <targets>
+      <target>[LoginUK, CommonUK]</target>
+    </targets>
+    <result>
+      <executiontime isRelevant="true" mesure="0" unit="s"/>
+      <success hasTimedOut="true" passed="no" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testLogin_SpacesAroundUsername_SuccessfulLogin">
+    <targets>
+      <target>[LoginUK, CommonUK]</target>
+    </targets>
+    <result>
+      <executiontime isRelevant="true" mesure="0" unit="s"/>
+      <success hasTimedOut="true" passed="no" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testLogin_UsernameMoreThan256Characters">
+    <targets>
+      <target>[LoginUK, CommonUK]</target>
+    </targets>
+    <result>
+      <executiontime isRelevant="true" mesure="0" unit="s"/>
+      <success hasTimedOut="true" passed="no" state="100"/>
+    </result>
+  </test>
+</report>
