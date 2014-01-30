@@ -4,7 +4,7 @@
       <target>[AdminLogin, 1231, AdminSite]</target>
     </targets>
     <result>
-      <executiontime isRelevant="true" mesure="0" unit="s"/>
+      <executiontime isRelevant="true" mesure="550" unit="s"/>
       <success passed="no" state="100"/>
     </result>
   </test>
@@ -13,7 +13,7 @@
       <target>[AdminLogin, 1231, AdminSite]</target>
     </targets>
     <result>
-      <executiontime isRelevant="true" mesure="0" unit="s"/>
+      <executiontime isRelevant="true" mesure="10" unit="s"/>
       <success passed="no" state="100"/>
     </result>
   </test>
@@ -22,7 +22,7 @@
       <target>[AdminUserSummary, 1231]</target>
     </targets>
     <result>
-      <executiontime isRelevant="true" mesure="0" unit="s"/>
+      <executiontime isRelevant="true" mesure="50" unit="s"/>
       <success passed="no" state="100"/>
     </result>
   </test>
