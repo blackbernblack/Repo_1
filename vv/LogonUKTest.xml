@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><report categ="LogonUKTest" name="LogonUKTest">
+<?xml version="1.0" encoding="UTF-8"?><report categ="1231" name="LogonUKTest">
   <test executed="yes" name="testLoginInvalidUserWithValidPassword">
     <targets>
       <target>[LoginUK, CommonUK, 1231]</target>
     </targets>
+    <platform capspool="unknown" name="robowin" remote="unknown">
+      <os>
+        <name>Windows 8</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
     <result>
       <executiontime isRelevant="true" mesure="0" unit="s"/>
       <success passed="no" state="100"/>
@@ -12,6 +18,12 @@
     <targets>
       <target>[LoginUK, CommonUK, 1231]</target>
     </targets>
+    <platform capspool="unknown" name="robowin" remote="unknown">
+      <os>
+        <name>Windows 8</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
     <result>
       <executiontime isRelevant="true" mesure="6" unit="s"/>
       <success passed="no" state="100"/>
