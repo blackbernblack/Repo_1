@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><report categ="1231" name="AdminTest">
+  <test executed="yes" name="test">
+    <targets>
+      <target>[1231, Admin]</target>
+    </targets>
+    <platform capspool="unknown" name="robowin" remote="unknown">
+      <os>
+        <name>Windows 8</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="2" unit="s"/>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+</report>
