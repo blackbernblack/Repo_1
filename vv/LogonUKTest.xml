@@ -3,7 +3,7 @@
     <targets>
       <target>[LoginUK, CommonUK, 1231]</target>
     </targets>
-    <platform capspool="unknown" name="robowin" remote="unknown">
+    <platform capspool="unknown" name="master" remote="unknown">
       <os>
         <name>Windows 8</name>
       </os>
@@ -18,7 +18,7 @@
     <targets>
       <target>[LoginUK, CommonUK, 1231]</target>
     </targets>
-    <platform capspool="unknown" name="robowin" remote="unknown">
+    <platform capspool="unknown" name="master" remote="unknown">
       <os>
         <name>Windows 8</name>
       </os>
