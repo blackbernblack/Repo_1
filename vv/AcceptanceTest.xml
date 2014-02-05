@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><report categ="Acceptance,AcceptanceDraws,AcceptanceQA" name="AcceptanceTest">
+  <test executed="yes" name="accessToFriendsPage">
+    <targets>
+      <target>[AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="238" unit="s"/>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="friendsSearch">
+    <targets>
+      <target>[AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="133" unit="s"/>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testAccessToMessages_MessagesPageOpens">
+    <targets>
+      <target>[AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="137" unit="s"/>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testHeaderLinks_clickHelpButton_RedirectedToHelpCentrePage">
+    <targets>
+      <target>[AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="30" unit="s"/>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testHeaderLinks_clickSignInLink_LoginPanelAppears">
+    <targets>
+      <target>[AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="29" unit="s"/>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testHeaderLinks_clickWinnerResults_redirectedToWinnersResultsPage">
+    <targets>
+      <target>[AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="33" unit="s"/>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+</report>

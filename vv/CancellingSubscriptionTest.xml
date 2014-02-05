@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><report categ="Acceptance,AcceptanceDraws,AcceptanceQA" name="CancellingSubscriptionTest">
+  <test executed="yes" name="testAbilityToActivateSubscription">
+    <targets>
+      <target>[CancellingSubscriptionUK, AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="603" unit="s"/>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testCancellingUser_adminSite_SuccessfulCancelling">
+    <targets>
+      <target>[CancellingSubscriptionUK, AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="163" unit="s"/>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testInabilityOfPAYGUserToCancelSubscription">
+    <targets>
+      <target>[CancellingSubscription, AcceptanceQA, AcceptanceAL]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="215" unit="s"/>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testInabilityOfUserWithoutSubsciptionToCancelSubscription">
+    <targets>
+      <target>[CancellingSubscriptionUK, AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="168" unit="s"/>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+</report>

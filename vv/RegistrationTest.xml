@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><report categ="Acceptance,AcceptanceDraws,AcceptanceQA" name="RegistrationTest">
+  <test executed="yes" name="testRegisterUser_LandingPage_SuccessfullyRegistered">
+    <targets>
+      <target>[Registration, AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="265" unit="s"/>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+</report>

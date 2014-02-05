@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><report categ="Acceptance,AcceptanceDraws,AcceptanceQA" name="LinksFromHeaderTest">
+  <test executed="yes" name="testHeaderLinks_menuDropDownLinks_PagesOpened">
+    <targets>
+      <target>[AcceptanceQA, LandingPageFooter]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="0" unit="s"/>
+      <success hasTimedOut="true" passed="no" state="0"/>
+    </result>
+  </test>
+</report>

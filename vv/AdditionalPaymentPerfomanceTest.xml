@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><report categ="Acceptance,AcceptanceDraws,AcceptanceQA" name="AdditionalPaymentPerfomanceTest">
+  <test executed="yes" name="testAdditionalGeo_withEnoughFunds_geoBought">
+    <targets>
+      <target>[AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="252" unit="s"/>
+      <success passed="no" state="0"/>
+    </result>
+  </test>
+  <test executed="yes" name="testAdditionalGeo_withNotEnoughFunds_geoBought">
+    <targets>
+      <target>[Acceptance]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="245" unit="s"/>
+      <success passed="no" state="0"/>
+    </result>
+  </test>
+</report>

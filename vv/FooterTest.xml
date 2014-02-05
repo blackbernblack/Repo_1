@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><report categ="Acceptance,AcceptanceDraws,AcceptanceQA" name="FooterTest">
+  <test executed="yes" name="testFooterLinks_checkGambleawareIcon_gambleawareLinkCorrect">
+    <targets>
+      <target>[AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="40" unit="s"/>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testFooterLinks_checkGambleawareLink_gambleawareLinkCorrect">
+    <targets>
+      <target>[AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="31" unit="s"/>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testFooterLinks_checkGamblingcommissionLink_gamblingcommissionLinkCorrect">
+    <targets>
+      <target>[AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="28" unit="s"/>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testFooterLinks_checkGamcareLink_gamcareLinkCorrect">
+    <targets>
+      <target>[AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="28" unit="s"/>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testFooterLinks_checkGeonomicsLink_geonomicsLinkCorrect">
+    <targets>
+      <target>[AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="0" unit="s"/>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testFooterLinks_checkRestrictedLink_restrictedLinkCorrect">
+    <targets>
+      <target>[AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="30" unit="s"/>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+  <test executed="yes" name="testFooterLinks_clickTermsOfUse_RedirectedToTermsOfUsePage">
+    <targets>
+      <target>[AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="31" unit="s"/>
+      <success passed="yes" state="100"/>
+    </result>
+  </test>
+</report>
