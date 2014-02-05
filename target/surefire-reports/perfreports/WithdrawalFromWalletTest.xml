@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><report categ="Acceptance,AcceptanceDraws,AcceptanceQA" name="WithdrawalFromWalletTest">
+  <test executed="yes" name="successWithdrawWithFee">
+    <targets>
+      <target>[Acceptance, Wallet]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="247" unit="s"/>
+      <success passed="no" state="0"/>
+    </result>
+  </test>
+  <test executed="yes" name="successWithdrawWithoutFee">
+    <targets>
+      <target>[Wallet, AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="282" unit="s"/>
+      <success passed="no" state="0"/>
+    </result>
+  </test>
+  <test executed="yes" name="unableToWithdrawMaestro">
+    <targets>
+      <target>[Wallet, AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="207" unit="s"/>
+      <success passed="no" state="0"/>
+    </result>
+  </test>
+  <test executed="yes" name="unableToWithdrawMasterCard">
+    <targets>
+      <target>[Wallet, AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="203" unit="s"/>
+      <success passed="no" state="0"/>
+    </result>
+  </test>
+</report>

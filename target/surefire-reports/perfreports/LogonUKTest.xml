@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><report categ="1231" name="LogonUKTest">
+  <test executed="yes" name="testLoginInvalidUserWithValidPassword">
+    <targets>
+      <target>[LoginUK, CommonUK, 1231]</target>
+    </targets>
+    <platform capspool="unknown" name="master" remote="unknown">
+      <os>
+        <name>Windows 8</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="0" unit="s"/>
+      <success hasTimedOut="true" passed="no" state="0"/>
+    </result>
+  </test>
+  <test executed="yes" name="testLoginValidUserWithInvalidPassword">
+    <targets>
+      <target>[LoginUK, CommonUK, 1231]</target>
+    </targets>
+    <platform capspool="unknown" name="master" remote="unknown">
+      <os>
+        <name>Windows 8</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="0" unit="s"/>
+      <success hasTimedOut="true" passed="no" state="0"/>
+    </result>
+  </test>
+</report>

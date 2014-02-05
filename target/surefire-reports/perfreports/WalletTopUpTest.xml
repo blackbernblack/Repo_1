@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><report categ="Acceptance,AcceptanceDraws,AcceptanceQA" name="WalletTopUpTest">
+  <test executed="yes" name="testTopUp_cardWithNotEnoughFund_topUpFailed">
+    <targets>
+      <target>[Wallet, BPP, AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="218" unit="s"/>
+      <success passed="no" state="0"/>
+    </result>
+  </test>
+  <test executed="yes" name="testTopUp_choosingSecondaryCard_topUpSuccess">
+    <targets>
+      <target>[Wallet, AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="214" unit="s"/>
+      <success passed="no" state="0"/>
+    </result>
+  </test>
+  <test executed="yes" name="testTopUp_forAmountWithoutFee_topUpSuccess">
+    <targets>
+      <target>[Wallet, AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="215" unit="s"/>
+      <success passed="no" state="0"/>
+    </result>
+  </test>
+  <test executed="yes" name="testTopUp_skippingTopUp_unchangedBalance">
+    <targets>
+      <target>[Wallet, BPP, AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="214" unit="s"/>
+      <success passed="no" state="0"/>
+    </result>
+  </test>
+  <test executed="yes" name="testTopUp_topUpDuringFirstPurchase_topUpSuccess">
+    <targets>
+      <target>[Wallet, BPP, AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="326" unit="s"/>
+      <success passed="no" state="0"/>
+    </result>
+  </test>
+  <test executed="yes" name="testTopUp_validCard_topUpSuccess">
+    <targets>
+      <target>[Wallet, BPP, AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="209" unit="s"/>
+      <success passed="no" state="0"/>
+    </result>
+  </test>
+  <test executed="yes" name="testTopUp_validSecondary_topUpSuccess">
+    <targets>
+      <target>[Wallet, AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="199" unit="s"/>
+      <success passed="no" state="0"/>
+    </result>
+  </test>
+  <test executed="yes" name="testTopUp_withFee_topUpSuccess">
+    <targets>
+      <target>[Acceptance, Wallet, BPP]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="194" unit="s"/>
+      <success passed="no" state="0"/>
+    </result>
+  </test>
+  <test executed="yes" name="testTopUp_withoutFee_topUpSuccess">
+    <targets>
+      <target>[Wallet, BPP, AcceptanceQA]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="199" unit="s"/>
+      <success passed="no" state="0"/>
+    </result>
+  </test>
+</report>

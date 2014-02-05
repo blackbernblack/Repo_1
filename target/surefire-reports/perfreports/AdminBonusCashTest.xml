@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><report categ="Acceptance,AcceptanceDraws,AcceptanceQA" name="AdminBonusCashTest">
+  <test executed="yes" name="testBonusCashAdmin_successfulGift_bonusAdded">
+    <targets>
+      <target>[Acceptance]</target>
+    </targets>
+    <platform capspool="unknown" name="RoboWin02" remote="unknown">
+      <os>
+        <name>Windows 7</name>
+      </os>
+      <processor arch="amd64"/>
+    </platform>
+    <result>
+      <executiontime isRelevant="false" mesure="187" unit="s"/>
+      <success passed="no" state="0"/>
+    </result>
+  </test>
+</report>
